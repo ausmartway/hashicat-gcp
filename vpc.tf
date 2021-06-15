@@ -1,7 +1,7 @@
 //--------------------------------------------------------------------
 // Modules
 module "network" {
-  source  = "app.terraform.io/yulei/network/google"
+  source  = "app.terraform.io/yulei-training/network/google"
   version = "3.3.0"
 
   network_name = "gaurav-network"
